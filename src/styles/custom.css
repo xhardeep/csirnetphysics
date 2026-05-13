@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+
+:root {
+  --sl-font: 'Outfit', sans-serif;
+  --sl-font-mono: 'JetBrains Mono', monospace;
+  
+  /* Premium Dark Theme Palette */
+  --sl-color-accent-low: #1e1b4b;
+  --sl-color-accent: #6366f1;
+  --sl-color-accent-high: #a5b4fc;
+  
+  --sl-color-bg: #030712;
+  --sl-color-bg-nav: #030712;
+  --sl-color-bg-sidebar: #030712;
+  
+  --brand-gradient: linear-gradient(135deg, #6366f1 0%, #a855f7 100%);
+}
+
+/* Glassmorphism for Sidebar and Header */
+header {
+  background-color: rgba(3, 7, 18, 0.8) !important;
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1) !important;
+}
+
+.sidebar-content {
+  background-color: rgba(3, 7, 18, 0.5) !important;
+}
+
+/* Premium Typography */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  color: #f8fafc !important;
+}
+
+/* Custom Card Styling for Hero */
+.card {
+  background: rgba(30, 41, 59, 0.5) !important;
+  border: 1px solid rgba(255, 255, 255, 0.1) !important;
+  border-radius: 1rem !important;
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  border-color: var(--sl-color-accent) !important;
+  transform: translateY(-2px);
+  box-shadow: 0 10px 30px -10px rgba(99, 102, 241, 0.3);
+}
+
+/* Hero Section "WOW" Factor */
+.hero {
+  padding: 6rem 0 !important;
+}
+
+.hero h1 {
+  font-size: 4rem !important;
+  background: var(--brand-gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 1.5rem !important;
+}
+
+/* Smooth Scroll */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--sl-color-bg);
+}
+
+::-webkit-scrollbar-thumb {
+  background: #334155;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--sl-color-accent);
+}
