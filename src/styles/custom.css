@@ -30,10 +30,16 @@
   --sl-color-bg-nav: #ffffff;
   --sl-color-bg-sidebar: #f8fafc;
   --sl-color-hairline: rgba(0, 0, 0, 0.1);
-  --sl-color-text: #1e293b; /* Dark slate for body text */
+  --sl-color-text: #0f172a;
   --sl-color-text-accent: #4f46e5;
-  --sl-color-gray-2: #334155; /* Darker gray for secondary text */
-  --sl-color-gray-3: #64748b;
+  
+  /* Full Gray Scale for Light Mode */
+  --sl-color-gray-1: #0f172a; /* Darkest */
+  --sl-color-gray-2: #1e293b;
+  --sl-color-gray-3: #334155;
+  --sl-color-gray-4: #64748b;
+  --sl-color-gray-5: #cbd5e1;
+  --sl-color-gray-6: #f1f5f9; /* Lightest */
 }
 
 /* Minimalist Header */
